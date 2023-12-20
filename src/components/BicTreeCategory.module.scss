@@ -1,0 +1,30 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 2rem;
+  background-color: #F6F9FE;
+  cursor: pointer;
+}
+
+.category:hover {
+  background-color: darken(#F6F9FE, 5%);
+}
+
+.category__content {
+  padding: .8rem;
+  background-color: #FFF;
+}
+
+.category__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.category__arrow {
+  width: 2.4rem;
+  height: 2.4rem;
+}
